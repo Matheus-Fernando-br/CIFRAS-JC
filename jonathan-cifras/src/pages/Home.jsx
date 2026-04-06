@@ -14,7 +14,7 @@ export default function Home(){
 
   return(
 
-    <div className="container fade">
+    <div className="container fade" style={{display:"flex", justifyContent:"center", flexDirection:"column"}}>
 
       <input
 

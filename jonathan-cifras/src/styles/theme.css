@@ -1,42 +1,56 @@
+/* =========================
+   VARIABLES / THEME
+========================= */
+
 :root{
 
-  --bg: linear-gradient(290deg,#fff,#cccccc);
+  --font-scale:1;
+
+  --bg:linear-gradient(290deg,#fff,#cccccc);
   --text:#111827;
-  --text-bg:#000000bd;
+  --text-soft:#000000bd;
+
   --primary:#f18232;
   --primary-soft:#fff7ed;
 
-  --card:#ffffff;
+  --search:#ffffff6c;
 
+  --card:#ffffff;
   --border:#e5e7eb;
 
-  --second: linear-gradient(35deg,#cececec2, #474747c0);
+  --second:linear-gradient(35deg,#cececec2,#474747c0);
 
 }
 
 .dark{
 
-  --bg: linear-gradient(290deg,#0b1220,#000000);
+  --bg:linear-gradient(290deg,#0b1220,#000000);
+
   --text:#e5e7eb;
-  --text-bg:#dfdfdfa4;
+  --text-soft:#dfdfdfa4;
+
   --primary:#f97316;
   --primary-soft:#1a2236;
 
-  --card:#111827;
+  --search:#192747cb;
 
+  --card:#111827;
   --border:#1f2937;
 
-  --second: linear-gradient(35deg,#1936bbc0, #0b1220);
+  --second:linear-gradient(35deg,#1936bbc0,#0b1220);
 
 }
 
-*{
 
-  transition:
-  background .25s ease,
-  color .25s ease,
-  border .25s ease,
-  box-shadow .25s ease;
+/* =========================
+   BASE
+========================= */
+
+html{
+
+  font-size:calc(16px * var(--font-scale));
+
+  transition:font-size .25s ease;
 
 }
 
@@ -44,105 +58,186 @@ body{
 
   margin:0;
 
-  font-family: Inter, system-ui, sans-serif;
+  font-family:Poppins, Inter, system-ui, sans-serif;
+
   background:var(--bg);
 
   color:var(--text);
 
-  font-family:Poppins, sans-serif;
+}
+
+
+*{
+
+  transition:
+
+  background .25s ease,
+  color .25s ease,
+  border .25s ease,
+  box-shadow .25s ease,
+  transform .25s ease;
 
 }
 
-.logo{
-  font-family: "Funnel Display", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-size:20px;
-  letter-spacing:.3px;
-  cursor:pointer;
-  transition: all .3s ease-in-out;
-}
 
-.logo:hover{
-  cursor: pointer;
-  color:var(--primary);
-  transform: scale(0.99);
-}
+/* =========================
+   LAYOUT
+========================= */
 
 .container{
 
-  max-width:900px;
+  max-width:56rem;
 
   margin:auto;
 
-  padding:20px;
+  padding:1.25rem;
 
 }
 
-.card{
 
-  background:var(--card);
+/* =========================
+   HEADER / LOGO
+========================= */
 
-  border:1px solid var(--border);
+.logo{
 
-  border-radius:14px;
+  font-family:"Funnel Display", sans-serif;
 
-  padding:18px;
+  font-size:1.25rem;
 
-  margin-bottom:14px;
+  letter-spacing:.02rem;
 
-  transition:.25s;
-
-}
-
-.card:hover{
-
-  transform:translateY(-3px);
-
-  box-shadow:0 10px 25px rgba(0,0,0,.08);
+  cursor:pointer;
 
 }
 
-.song-title{
-
-  font-size:18px;
-  color: var(--text);
-  font-weight:600;
-
-}
-
-.song-tone{
-
-  font-size:14px;
-  color: var(--text-bg);
-  opacity:.7;
-
-}
-
-.chord{
+.logo:hover{
 
   color:var(--primary);
-  font-size:16px;
-  font-weight:600;
+
+  transform:scale(.98);
 
 }
 
+
+/* =========================
+   SEARCH
+========================= */
 
 .search{
 
   width:100%;
 
-  padding:12px;
+  display:flex;
 
-  border-radius:10px;
+  justify-content:center;
 
-  border:1px solid var(--border);
+  text-align:center;
 
-  background:var(--card);
+  padding:.65rem 0;
+
+  border-radius:.6rem;
+
+  border:.06rem solid var(--border);
+
+  background:var(--search);
 
   color:var(--text);
 
+  font-size:1rem;
+
 }
+
+
+/* =========================
+   CARD (HOME SONG LIST)
+========================= */
+
+.card{
+
+  background:var(--card);
+
+  border:.06rem solid var(--border);
+
+  border-radius:.9rem;
+
+  padding:1.1rem;
+
+  margin-bottom:.9rem;
+
+}
+
+.card:hover{
+
+  transform:translateY(-.18rem);
+
+  box-shadow:0 .6rem 1.6rem rgba(0,0,0,.08);
+
+}
+
+
+.song-title{
+
+  font-size:1.05rem;
+  color: var(--text);
+  font-weight:600;
+
+}
+
+
+.song-tone{
+
+  font-size:.85rem;
+
+  color:var(--text-soft);
+
+  opacity:.75;
+
+}
+
+
+/* =========================
+   SONG PAGE
+========================= */
+
+.chord{
+
+  color:var(--primary);
+
+  font-size:1.05rem;
+
+  font-weight:600;
+
+}
+
+
+pre{
+
+  white-space:pre-wrap;
+
+  font-size:1.05rem;
+
+  line-height:1.85;
+
+}
+
+
+/* =========================
+   PLAYER
+========================= */
+
+.player{
+
+  width:100%;
+
+  margin:1rem 0;
+
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
 
 .btn{
 
@@ -152,87 +247,196 @@ body{
 
   border:none;
 
-  padding:10px 14px;
+  padding:.6rem .85rem;
 
-  border-radius:10px;
+  border-radius:.6rem;
 
   cursor:pointer;
 
-  transition:all .3s ease;
+  font-size:.9rem;
 
 }
 
 .btn:hover{
 
-  transform: scale(1.1) rotate(15deg);
+  transform:scale(1.06);
 
 }
 
-.btn-tom {
-  padding: 2vh;
-  border-radius: 10px;
-    background:var(--primary);
+
+.btn-tom{
+
+  padding:.7rem 1.1rem;
+
+  border-radius:.6rem;
+
+  background:var(--primary);
 
   color:white;
 
   border:none;
-  font-size: 15px;
-  border-radius:10px;
+
+  font-size:.95rem;
 
   cursor:pointer;
 
-  transition:all .3s ease;
 }
+
+.btn-tom:hover{
+
+  transform:scale(1.05);
+
+}
+
+
+.btn-font{
+
+  padding:.55rem 1rem;
+
+  border-radius:.6rem;
+
+  background:var(--primary);
+
+  color:white;
+
+  border:none;
+
+  font-size:.95rem;
+
+  cursor:pointer;
+
+}
+
+.btn-font:hover{
+
+  transform:scale(.97);
+
+}
+
 
 .back{
-  text-align: center;
-  margin-bottom:20px;
-  font-weight: bold;
+
   display:inline-block;
-  color: var(--text);
-  background: var(--primary);
-  text-decoration: none;
-  padding: 2vh;
-  border-radius: 10px;
+
+  margin-bottom:1.2rem;
+
+  font-weight:600;
+
+  color:white;
+
+  background:var(--primary);
+
+  text-decoration:none;
+
+  padding:.7rem 1.2rem;
+
+  border-radius:.6rem;
 
 }
 
-.player{
+.back:hover{
+
+  transform:scale(.96);
+
+}
+
+
+/* =========================
+   FONT DROPDOWN
+========================= */
+
+.font-menu{
+
+  position:absolute;
+
+  top:3.2rem;
+
+  right:0;
+
+  width:11rem;
+
+  padding:.85rem;
+
+  border-radius:.75rem;
+
+  background:var(--card);
+
+  border:.06rem solid var(--border);
+
+  box-shadow:0 .6rem 1.8rem rgba(0,0,0,.18);
+
+  animation:fadeIn .18s ease;
+
+}
+
+
+.font-row{
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:space-between;
+
+  margin-bottom:.6rem;
+
+}
+
+
+.font-btn{
+
+  width:2rem;
+
+  height:2rem;
+
+  border-radius:.5rem;
+
+  border:none;
+
+  cursor:pointer;
+
+  background:var(--primary);
+
+  color:white;
+
+  font-weight:bold;
+
+}
+
+
+.font-range{
 
   width:100%;
 
-  margin:16px 0;
-
 }
 
-pre{
 
-  white-space:pre-wrap;
-
-  font-size:18px;
-
-  line-height:1.9;
-
-}
+/* =========================
+   ANIMATIONS
+========================= */
 
 .fade{
 
-  animation:fade .3s ease;
+  animation:fadeIn .3s ease;
 
 }
 
-@keyframes fade{
+
+@keyframes fadeIn{
 
   from{
 
     opacity:0;
-    transform:translateY(6px);
+
+    transform:translateY(.35rem);
 
   }
 
   to{
 
     opacity:1;
+
+    transform:translateY(0);
 
   }
 
