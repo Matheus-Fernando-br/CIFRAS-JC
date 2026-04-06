@@ -2,661 +2,582 @@
    VARIABLES / THEME
 ========================= */
 
-:root{
+:root {
+  --font-scale: 1;
 
-  --font-scale:1;
+  --bg: linear-gradient(290deg, #fff, #cccccc);
+  --text: #111827;
+  --text-soft: #000000bd;
 
-  --bg:linear-gradient(290deg,#fff,#cccccc);
-  --text:#111827;
-  --text-soft:#000000bd;
+  --primary: #f18232;
+  --primary-soft: #fff7ed;
 
-  --primary:#f18232;
-  --primary-soft:#fff7ed;
+  --search: #ffffff6c;
 
-  --search:#ffffff6c;
+  --card: #ffffff;
+  --border: #e5e7eb;
 
-  --card:#ffffff;
-  --border:#e5e7eb;
-
-  --second:linear-gradient(35deg,#cececec2,#474747c0);
-
+  --second: linear-gradient(55deg, #a0a0a0c2, #3b3a3ac0);
 }
 
-.dark{
+.dark {
+  --bg: linear-gradient(290deg, #0b1220, #000000);
 
-  --bg:linear-gradient(290deg,#0b1220,#000000);
+  --text: #e5e7eb;
+  --text-soft: #dfdfdfa4;
 
-  --text:#e5e7eb;
-  --text-soft:#dfdfdfa4;
+  --primary: #f97316;
+  --primary-soft: #1a2236;
 
-  --primary:#f97316;
-  --primary-soft:#1a2236;
+  --search: #192747cb;
 
-  --search:#192747cb;
+  --card: #111827;
+  --border: #1f2937;
 
-  --card:#111827;
-  --border:#1f2937;
-
-  --second:linear-gradient(35deg,#1936bbc0,#0b1220);
-
+  --second: linear-gradient(35deg, #1936bbc0, #0b1220);
 }
-
 
 /* =========================
    BASE
 ========================= */
 
-html{
+html {
+  font-size: calc(16px * var(--font-scale));
 
-  font-size:calc(16px * var(--font-scale));
-
-  transition:font-size .25s ease;
-
+  transition: font-size 0.25s ease;
 }
 
-body{
+body {
+  margin: 0;
 
-  margin:0;
+  font-family: Poppins, Inter, system-ui, sans-serif;
 
-  font-family:Poppins, Inter, system-ui, sans-serif;
+  background: var(--bg);
 
-  background:var(--bg);
-
-  color:var(--text);
-
+  color: var(--text);
 }
 
-
-*{
-
+* {
   transition:
-
-  background .45s ease,
-  color .25s ease,
-  border .25s ease,
-  box-shadow .25s ease,
-  transform .25s ease;
-
+    background 0.45s ease,
+    color 0.25s ease,
+    border 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
 }
-
 
 /* =========================
    LAYOUT
 ========================= */
 
-.container{
+.container {
+  max-width: 56rem;
 
-  max-width:56rem;
+  margin: auto;
 
-  margin:auto;
-
-  padding:1.25rem;
-
+  padding: 1.25rem;
 }
-
 
 /* =========================
    HEADER / LOGO
 ========================= */
 
-.logo{
+.logo {
+  font-family: "Funnel Display", sans-serif;
 
-  font-family:"Funnel Display", sans-serif;
+  font-size: 1.25rem;
 
-  font-size:1.25rem;
+  letter-spacing: 0.02rem;
 
-  letter-spacing:.02rem;
-
-  cursor:pointer;
-
+  cursor: pointer;
 }
 
-.logo:hover{
+.logo:hover {
+  color: var(--primary);
 
-  color:var(--primary);
-
-  transform:scale(.98);
-
+  transform: scale(0.98);
 }
-
 
 /* =========================
    SEARCH
 ========================= */
 
-.search{
+.search {
+  width: 100%;
 
-  width:100%;
+  display: flex;
 
-  display:flex;
+  justify-content: center;
 
-  justify-content:center;
+  text-align: center;
 
-  text-align:center;
+  padding: 0.65rem 0;
 
-  padding:.65rem 0;
+  border-radius: 0.6rem;
 
-  border-radius:.6rem;
+  border: 0.06rem solid var(--border);
 
-  border:.06rem solid var(--border);
+  background: var(--search);
 
-  background:var(--search);
+  color: var(--text);
 
-  color:var(--text);
-
-  font-size:1rem;
-
+  font-size: 1rem;
 }
 
-.search-row{
+.search-row {
+  display: flex;
 
-  display:flex;
+  gap: 0.6rem;
 
-  gap:.6rem;
+  align-items: center;
 
-  align-items:center;
-
-  margin-bottom:1.2rem;
-
+  margin-bottom: 1.2rem;
 }
 
+.section-title {
+  margin: 1.4rem 0 0.6rem 0;
 
-.section-title{
+  font-size: 1.1rem;
 
-  margin:
-
-  1.4rem 0 .6rem 0;
-
-  font-size:1.1rem;
-
-  opacity:.85;
-
+  opacity: 0.85;
 }
-
 
 /* =========================
    CARD (HOME SONG LIST)
 ========================= */
 
-.card{
+.card {
+  background: var(--card);
 
-  background:var(--card);
+  border: 0.06rem solid var(--border);
 
-  border:.06rem solid var(--border);
+  border-radius: 0.9rem;
 
-  border-radius:.9rem;
+  padding: 1.1rem;
 
-  padding:1.1rem;
-
-  margin-bottom:.9rem;
-
+  margin-bottom: 0.9rem;
 }
 
-.card:hover{
+.card:hover {
+  transform: translateY(-0.18rem);
 
-  transform:translateY(-.18rem);
-
-  box-shadow:0 .6rem 1.6rem rgba(0,0,0,.08);
-
+  box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.08);
 }
 
-
-.song-title{
-
-  font-size:1.05rem;
+.song-title {
+  font-size: 1.05rem;
   color: var(--text);
-  font-weight:600;
-
+  font-weight: 600;
 }
 
+.song-tone {
+  font-size: 0.85rem;
 
-.song-tone{
+  color: var(--text-soft);
 
-  font-size:.85rem;
-
-  color:var(--text-soft);
-
-  opacity:.75;
-
+  opacity: 0.75;
 }
-
 
 /* =========================
    SONG PAGE
 ========================= */
 
-.chord{
+.chord {
+  color: var(--primary);
 
-  color:var(--primary);
+  font-size: 1.05rem;
 
-  font-size:1.05rem;
-
-  font-weight:600;
-
+  font-weight: 600;
 }
 
+pre {
+  white-space: pre-wrap;
 
-pre{
+  font-size: 1.05rem;
 
-  white-space:pre-wrap;
-
-  font-size:1.05rem;
-
-  line-height:1.85;
-
+  line-height: 1.85;
 }
-
 
 /* =========================
    PLAYER
 ========================= */
 
-.player{
+.player {
+  width: 100%;
 
-  width:100%;
-
-  margin:1rem 0;
-
+  margin: 1rem 0;
 }
-
 
 /* =========================
    BUTTONS
 ========================= */
 
-.btn{
+.btn {
+  background: var(--second);
 
-  background:var(--second);
+  color: white;
 
-  color:white;
+  border: none;
 
-  border:none;
+  padding: 0.6rem 0.85rem;
 
-  padding:.6rem .85rem;
+  border-radius: 0.6rem;
 
-  border-radius:.6rem;
+  cursor: pointer;
 
-  cursor:pointer;
-
-  font-size:.9rem;
-
+  font-size: 0.9rem;
 }
 
-.btn:hover{
-
-  transform:scale(1.06);
-
+.btn:hover {
+  transform: scale(1.06);
 }
 
+.btn-tom {
+  padding: 0.7rem 1.1rem;
 
-.btn-tom{
+  border-radius: 0.6rem;
 
-  padding:.7rem 1.1rem;
+  background: var(--primary);
 
-  border-radius:.6rem;
+  color: white;
 
-  background:var(--primary);
+  border: none;
 
-  color:white;
+  font-size: 0.95rem;
 
-  border:none;
-
-  font-size:.95rem;
-
-  cursor:pointer;
-
+  cursor: pointer;
 }
 
-.btn-tom:hover{
-
-  transform:scale(1.05);
-
+.btn-tom:hover {
+  transform: scale(1.05);
 }
 
+.btn-font {
+  padding: 0.55rem 1rem;
 
-.btn-font{
+  border-radius: 0.6rem;
 
-  padding:.55rem 1rem;
+  background: var(--primary);
 
-  border-radius:.6rem;
+  color: white;
 
-  background:var(--primary);
+  border: none;
 
-  color:white;
+  font-size: 0.95rem;
 
-  border:none;
-
-  font-size:.95rem;
-
-  cursor:pointer;
-
+  cursor: pointer;
 }
 
-.btn-font:hover{
-
-  transform:scale(.97);
-
+.btn-font:hover {
+  transform: scale(0.97);
 }
 
+.back {
+  display: inline-block;
 
-.back{
+  margin-bottom: 1.2rem;
 
-  display:inline-block;
+  font-weight: 600;
 
-  margin-bottom:1.2rem;
+  color: white;
 
-  font-weight:600;
+  background: var(--primary);
 
-  color:white;
+  text-decoration: none;
 
-  background:var(--primary);
+  padding: 0.7rem 1.2rem;
 
-  text-decoration:none;
-
-  padding:.7rem 1.2rem;
-
-  border-radius:.6rem;
-
+  border-radius: 0.6rem;
 }
 
-.back:hover{
-
-  transform:scale(.96);
-
+.back:hover {
+  transform: scale(0.96);
 }
-
 
 /* =========================
    Scroll
 ========================= */
-.scroll-box{
+.scroll-box {
+  position: fixed;
 
-  position:fixed;
+  right: 20px;
 
-  right:20px;
+  bottom: 20px;
 
-  bottom:20px;
+  z-index: 9999;
 
-  z-index:9999;
+  display: flex;
 
-  display:flex;
+  flex-direction: column;
 
-  flex-direction:column;
+  align-items: flex-end;
 
-  align-items:flex-end;
-
-  gap:.4rem;
-
+  gap: 0.4rem;
 }
 
-.scroll-btn{
+.scroll-btn {
+  border: none;
 
-  border:none;
-
-  padding:1rem;
+  padding: 1rem;
   font-size: 1rem;
-  border-radius:.6rem;
+  border-radius: 0.6rem;
 
-  background:var(--bg);
+  background: var(--primary);
 
-  color:white;
+  color: white;
 
-  cursor:pointer;
+  cursor: pointer;
 
-  box-shadow:0 6px 18px rgba(0,0,0,.2);
-
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
 
-.scroll-panel{
+.scroll-panel {
+  background: var(--card);
 
-  background:var(--card);
+  border: 0.06rem solid var(--border);
 
-  border:.06rem solid var(--border);
+  padding: 0.8rem;
 
-  padding:.6rem;
+  border-radius: 0.6rem;
 
-  border-radius:.6rem;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
 
-  box-shadow:0 8px 22px rgba(0,0,0,.18);
+  display: flex;
 
-  display:flex;
+  flex-direction: column;
 
-  flex-direction:column;
+  gap: 0.3rem;
 
-  gap:.3rem;
-
-  font-size:.8rem;
-
-  width:140px;
-
+  width: 180px;
 }
 
-.scroll-panel input{
-
-  width:100%;
-
+.scroll-panel input {
+  width: 100%;
 }
+
+.scroll-panel label {
+  font-size: 1rem;
+  text-align: center;
+  opacity: 0.75;
+  margin-bottom: 0.2rem;
+}
+
+.scroll-panel button {
+  border: 1px solid var(--primary-soft);
+
+  background: var(--second);
+
+  color: var(--text);
+
+  padding: 0.4rem;
+
+  border-radius: 0.45rem;
+
+  cursor: pointer;
+
+  font-size: 0.85rem;
+}
+
+.scroll-panel input[type="range"] {
+  background: var(--second);
+  width: 100%;
+  border-radius: 0.1rem;
+
+  outline: none;
+}
+
 /* =========================
    FONT DROPDOWN
 ========================= */
 
-.font-menu{
+.font-menu {
+  position: absolute;
 
-  position:absolute;
+  top: 3.2rem;
 
-  top:3.2rem;
+  right: 0;
 
-  right:0;
+  width: 11rem;
 
-  width:11rem;
+  padding: 0.85rem;
 
-  padding:.85rem;
+  border-radius: 0.75rem;
 
-  border-radius:.75rem;
+  background: var(--card);
 
-  background:var(--card);
+  border: 0.06rem solid var(--border);
 
-  border:.06rem solid var(--border);
+  box-shadow: 0 0.6rem 1.8rem rgba(0, 0, 0, 0.18);
 
-  box-shadow:0 .6rem 1.8rem rgba(0,0,0,.18);
-
-  animation:fadeIn .18s ease;
-
+  animation: fadeIn 0.18s ease;
 }
 
+.font-row {
+  display: flex;
 
-.font-row{
+  align-items: center;
 
-  display:flex;
+  justify-content: space-between;
 
-  align-items:center;
-
-  justify-content:space-between;
-
-  margin-bottom:.6rem;
-
+  margin-bottom: 0.6rem;
 }
 
+.font-btn {
+  width: 2rem;
 
-.font-btn{
+  height: 2rem;
 
-  width:2rem;
+  border-radius: 0.5rem;
 
-  height:2rem;
+  border: none;
 
-  border-radius:.5rem;
+  cursor: pointer;
 
-  border:none;
+  background: var(--primary);
 
-  cursor:pointer;
+  color: white;
 
-  background:var(--primary);
-
-  color:white;
-
-  font-weight:bold;
-
+  font-weight: bold;
 }
 
-
-.font-range{
-
-  width:100%;
-
+.font-range {
+  width: 100%;
 }
 
 /* =========================
    FILTRO DROPDOWN
 ========================= */
 
-.filter-menu{
+.filter-menu {
+  position: absolute;
 
-  position:absolute;
+  top: 3rem;
 
-  top:3rem;
+  right: 0;
 
-  right:0;
+  width: 12rem;
 
-  width:12rem;
+  padding: 0.9rem;
 
-  padding:.9rem;
+  border-radius: 0.7rem;
 
-  border-radius:.7rem;
+  background: var(--second);
 
-  background:var(--card);
+  color: white;
 
-  color: var(--text);
+  border: 0.06rem solid var(--border);
 
-  border:.06rem solid var(--border);
+  box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.18);
 
-  box-shadow:0 .6rem 1.6rem rgba(0,0,0,.18);
+  display: flex;
 
-  display:flex;
+  flex-direction: column;
 
-  flex-direction:column;
+  gap: 0.6rem;
 
-  gap:.6rem;
-
-  animation:fadeIn .18s ease;
+  animation: fadeIn 0.18s ease;
 
   z-index: 9999;
-
 }
 
+.filter-section {
+  display: flex;
 
-.filter-section{
+  flex-direction: column;
 
-  display:flex;
-
-  flex-direction:column;
-
-  gap:.35rem;
-
+  gap: 0.35rem;
 }
 
+.filter-section hr {
+  border: none;
 
-.filter-title{
+  border-top: 0.06rem solid var(--border);
 
-  font-size:.8rem;
-
-  opacity:.6;
-
-  margin-bottom:.15rem;
-
+  margin: 0.25rem 0;
 }
 
+.filter-title {
+  font-size: 0.8rem;
+  color: #ffffff;
 
-.filter-menu button{
+  margin-bottom: 0.15rem;
+}
 
-  border:none;
+.filter-menu button {
+  border: none;
 
-  background:var(--primary-soft);
+  background: var(--primary-soft);
   color: var(--text);
-  padding:.4rem;
+  padding: 0.4rem;
 
-  border-radius:.45rem;
+  border-radius: 0.45rem;
 
-  cursor:pointer;
+  cursor: pointer;
 
-  font-size:.85rem;
-  transition:.2s;
+  font-size: 0.85rem;
+  transition: 0.2s;
 }
-
 
 .filter-menu button:hover {
+  background: var(--primary);
 
-  background:var(--primary);
-
-  color:white;
-
+  color: white;
 }
 
-.filter-menu button.active{
+.filter-menu button.active {
+  background: var(--primary);
 
-  background:var(--primary);
-
-  color:white;
-
+  color: white;
 }
 
+.filter-menu select {
+  padding: 0.35rem;
 
-.filter-menu select{
+  border-radius: 0.4rem;
 
-  padding:.35rem;
+  border: 0.06rem solid var(--border);
 
-  border-radius:.4rem;
+  background: var(--card);
 
-  border:.06rem solid var(--border);
-
-  background:var(--card);
-
-  color:var(--text);
-
+  color: var(--text);
 }
 
-.filter-menu select:focus{
+.filter-menu select:focus {
+  border-color: var(--primary);
 
-  border-color:var(--primary);
-
-  outline:none;
-
+  outline: none;
 }
 
+.btn-clear {
+  font-size: 0.75rem;
+  background-color: #e62c0f54 !important;
+  opacity: 1;
+  transition: all 0.2s ease;
+}
 
-.btn-clear{
-
-  font-size:.75rem;
-  opacity:.7;
-
+.btn-clear:hover {
+  background-color: #e62c0f !important;
+  transform: scale(1.05);
 }
 
 /* =========================
    ANIMATIONS
 ========================= */
 
-.fade{
-
-  animation:fadeIn .3s ease;
-
+.fade {
+  animation: fadeIn 0.3s ease;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
 
-@keyframes fadeIn{
-
-  from{
-
-    opacity:0;
-
-    transform:translateY(.35rem);
-
+    transform: translateY(0.35rem);
   }
 
-  to{
+  to {
+    opacity: 1;
 
-    opacity:1;
-
-    transform:translateY(0);
-
+    transform: translateY(0);
   }
-
 }

@@ -1,127 +1,87 @@
-import { useParams,Link } from "react-router-dom"
-import { songs } from "../data/songs"
-import { useState } from "react"
+import { useParams, Link } from "react-router-dom";
+import { songs } from "../data/songs";
+import { useState } from "react";
 
-import Player from "../components/Player"
-import ScrollControl from "../components/ScrollControl"
+import Player from "../components/Player";
+import ScrollControl from "../components/ScrollControl";
 
-const notes = [
-"C","C#","D","D#","E","F",
-"F#","G","G#","A","A#","B"
-]
+const notes = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
 
-function transposeChord(chord, step){
+function transposeChord(chord, step) {
+  let match = chord.match(/[A-G]#?/);
 
-  let match = chord.match(/[A-G]#?/)
+  if (!match) return chord;
 
-  if(!match) return chord
+  let root = match[0];
 
-  let root = match[0]
+  let index = notes.indexOf(root);
 
-  let index = notes.indexOf(root)
+  let newIndex = (index + step + 12) % 12;
 
-  let newIndex = (index + step + 12) % 12
-
-  return chord.replace(root, notes[newIndex])
-
+  return chord.replace(root, notes[newIndex]);
 }
 
-function transposeLyrics(text, step){
-
-  return text.replace(/\[([^\]]+)\]/g,(match,chord)=>{
-
-    return `<span class="chord">[${transposeChord(chord,step)}]</span>`
-
-  })
-
+function transposeLyrics(text, step) {
+  return text.replace(/\[([^\]]+)\]/g, (match, chord) => {
+    return `<span class="chord">[${transposeChord(chord, step)}]</span>`;
+  });
 }
 
-export default function Song(){
+export default function Song() {
+  const { id } = useParams();
 
-  const {id} = useParams()
+  const song = songs.find((s) => s.id === id);
 
-  const song = songs.find(s=>s.id===id)
+  const [step, setStep] = useState(0);
 
-  const [step,setStep] = useState(0)
+  const currentToneIndex = (notes.indexOf(song.tone) + step + 12) % 12;
 
-  const currentToneIndex =
-    (notes.indexOf(song.tone) + step + 12) % 12
+  const currentTone = notes[currentToneIndex];
 
-  const currentTone = notes[currentToneIndex]
-
-  function change(value){
-
-    setStep(step + value)
-
+  function change(value) {
+    setStep(step + value);
   }
-  const newLyrics = transposeLyrics(song.chords,step)
+  const newLyrics = transposeLyrics(song.chords, step);
 
-  return(
-
+  return (
     <div className="container fade">
-      <div style={{textAlign:"center"}}>
+      <div style={{ textAlign: "center" }}>
         <Link to="/" className="back">
-
           ← Voltar
-
         </Link>
       </div>
-      <h2>
+      <h2>{song.title}</h2>
 
-        {song.title}
-
-      </h2>
-
-      <Player src={song.audio}/>
+      <Player src={song.audio} />
       <div
         style={{
-          marginBottom:10,
-          fontWeight:600
+          marginBottom: 10,
+          fontWeight: 600,
         }}
       >
-
         Tom: {currentTone}
-
       </div>
 
       <div
         style={{
-          display:"flex",
-          justifyContent:"center",
-          gap:40,
-          marginBottom:10
+          display: "flex",
+          justifyContent: "center",
+          gap: 40,
+          marginBottom: 10,
         }}
       >
-
-        <button
-          className="btn-tom"
-          onClick={()=>change(-1)}
-        >
-
+        <button className="btn-tom" onClick={() => change(-1)}>
           Diminuir Tom
-
         </button>
 
-        <button
-          className="btn-tom"
-          onClick={()=>change(1)}
-        >
-
+        <button className="btn-tom" onClick={() => change(1)}>
           Aumentar Tom
-
         </button>
-
       </div>
 
+      <ScrollControl />
 
-      <ScrollControl/>
-
-      <pre
-        dangerouslySetInnerHTML={{__html:newLyrics}}
-      />
-
+      <pre dangerouslySetInnerHTML={{ __html: newLyrics }} />
     </div>
-
-  )
-
+  );
 }
