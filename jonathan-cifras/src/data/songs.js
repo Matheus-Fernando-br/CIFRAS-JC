@@ -633,4 +633,73 @@ Maior que tudo
 
 `,
   },
+  {
+    id: "cordeiro",
+    title: "Cordeiro",
+    tone: "C",
+    category: "espiritual",
+    audio: "/audios/cordeiro.mp3",
+    chords: `
+(INTRO) [F] - [G] - [Am] - [Dm]
+
+        [F]           
+Aquele que foi chamado
+          [G]  [Am]      [Dm]
+De Rei dos Judeus
+        [F]
+Aquele que foi
+                [G]  [Am]  [Dm]
+Condenado pelos seus (2x)
+                        [F] [Em] [F]
+Dele é o sangue que me salvou
+                [G]  [F] [G]
+Quando o véu se rasgou
+                [F] [Em] [F]       
+Que de amigo me chamou
+            [G]  [F] [G] 
+Ele é meu amor
+
+                     [F]                      [E/C]                      
+ Cantemos em uma só voz que
+  [F]                       [G] [Am]
+Digno é o Cordeiro
+ 
+Que se entregou
+Naquela Cruz por amor
+Cantemos em uma só voz que
+ digno é o cordeiro
+De receber
+A honra a glória e o poder
+
+
+            [F]
+Pois qual outro homem
+            [G]        [Am]
+Capaz de o Livro abrir
+            [C]
+Se não Jesus?
+            [F]
+Se não o Jesus?
+
+
+            [F]
+Que tem cabelos como a neve 
+            [G]
+Que os seus pés são como bronze
+            [Am]
+Que Sua voz é como ondas
+            [C]
+E os seus olhos como chamas
+
+            [F]
+Na mão direita a 7 estrelas
+            [G]
+De Sua boca sai a espada
+            [Am]
+Que Sua coxa está escrito
+            [C]
+Senhor dos Senhores
+
+`,
+  },
 ];
