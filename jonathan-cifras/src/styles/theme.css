@@ -1,0 +1,240 @@
+:root{
+
+  --bg:#ffffff;
+  --text:#111827;
+
+  --primary:#f97316;
+  --primary-soft:#fff7ed;
+
+  --card:#ffffff;
+
+  --border:#e5e7eb;
+
+  --second: linear-gradient(35deg,#cececec2, #474747c0);
+
+}
+
+.dark{
+
+  --bg:#0b1220;
+  --text:#e5e7eb;
+
+  --primary:#fb923c;
+  --primary-soft:#1a2236;
+
+  --card:#111827;
+
+  --border:#1f2937;
+
+  --second: linear-gradient(35deg,#1936bbc0, #5a0fbbc2);
+
+}
+
+*{
+
+  transition:
+  background .25s ease,
+  color .25s ease,
+  border .25s ease,
+  box-shadow .25s ease;
+
+}
+
+body{
+
+  margin:0;
+
+  font-family: Inter, system-ui, sans-serif;
+  background:var(--bg);
+
+  color:var(--text);
+
+  font-family:Poppins, sans-serif;
+
+}
+
+.logo{
+
+  font-size:20px;
+
+  font-weight:700;
+
+  letter-spacing:.3px;
+
+  cursor:pointer;
+
+}
+
+.logo:hover{
+
+  color:var(--primary);
+
+}
+
+.container{
+
+  max-width:900px;
+
+  margin:auto;
+
+  padding:20px;
+
+}
+
+.card{
+
+  background:var(--card);
+
+  border:1px solid var(--border);
+
+  border-radius:14px;
+
+  padding:18px;
+
+  margin-bottom:14px;
+
+  transition:.25s;
+
+}
+
+.card:hover{
+
+  transform:translateY(-3px);
+
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.song-title{
+
+  font-size:18px;
+
+  font-weight:600;
+
+}
+
+.song-tone{
+
+  font-size:14px;
+
+  opacity:.7;
+
+}
+
+.chord{
+
+  color:var(--primary);
+
+  font-weight:600;
+
+}
+
+.search{
+
+  width:100%;
+
+  padding:12px;
+
+  border-radius:10px;
+
+  border:1px solid var(--border);
+
+  background:var(--card);
+
+  color:var(--text);
+
+}
+
+.btn{
+
+  background:var(--second);
+
+  color:white;
+
+  border:none;
+
+  padding:10px 14px;
+
+  border-radius:10px;
+
+  cursor:pointer;
+
+  transition:all .3s ease;
+
+}
+
+.btn:hover{
+
+  transform: scale(1.1) rotate(15deg);
+
+}
+
+.btn-tom {
+  padding: 2vh;
+  border-radius: 10px;
+    background:var(--primary);
+
+  color:white;
+
+  border:none;
+  font-size: 15px;
+  border-radius:10px;
+
+  cursor:pointer;
+
+  transition:all .3s ease;
+}
+
+.back{
+  text-align: center;
+  margin-bottom:20px;
+  font-weight: bold;
+  display:inline-block;
+  color: var(--text);
+  background: var(--primary);
+  text-decoration: none;
+  padding: 2vh;
+  border-radius: 10px;
+
+}
+
+.player{
+
+  width:100%;
+
+  margin:16px 0;
+
+}
+
+pre{
+
+  white-space:pre-wrap;
+
+  font-size:18px;
+
+  line-height:1.9;
+
+}
+
+.fade{
+
+  animation:fade .3s ease;
+
+}
+
+@keyframes fade{
+
+  from{
+
+    opacity:0;
+    transform:translateY(6px);
+
+  }
+
+  to{
+
+    opacity:1;
+
+  }
+
+}
