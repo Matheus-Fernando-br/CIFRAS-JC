@@ -4,6 +4,7 @@ export const songs = [
 id:"ainda-ha-lugar",
 title:"Ainda Há Lugar",
 tone:"D",
+category:"agitada",
 audio:"/audios/ainda-ha-lugar.mp3",
 chords:`
 
@@ -215,6 +216,7 @@ Venham venham
 id:"eu-te-louvarei",
 title:"Eu Te Louvarei",
 tone:"F",
+category:"agitada",
 audio:"/audios/eu-te-louvarei.mp3",
 chords:`
 
@@ -305,6 +307,7 @@ Por isso eu
 id:"ecoar",
 title:"Ecoar",
 tone:"G",
+category:"espiritual",
 audio:"/audios/ecoar.mp3",
 chords:`
 
@@ -339,6 +342,7 @@ Pra sempre Te adorar
 id:"um-amigo-encontrei",
 title:"Um Amigo Encontrei",
 tone:"C",
+category:"espiritual",
 audio:"/audios/um-amigo-encontrei.mp3",
 chords:`
 
@@ -373,6 +377,7 @@ Nunca me abalarei
 id:"mal-posso-esperar",
 title:"Mal Posso Esperar",
 tone:"D",
+category:"agitada",
 audio:"/audios/mal-posso-esperar.mp3",
 chords:`
 
@@ -407,6 +412,7 @@ Só pra Te adorar
 id:"permanecer",
 title:"Permanecer",
 tone:"E",
+category:"espiritual",
 audio:"/audios/permanecer.mp3",
 chords:`
 
@@ -441,6 +447,7 @@ Teu amor me guiar
 id:"ninguem-e-santo",
 title:"Ninguém é Santo",
 tone:"Am",
+category:"espiritual",
 audio:"/audios/ninguem-e-santo.mp3",
 chords:`
 
@@ -475,6 +482,7 @@ Pra sempre eu vou
 id:"humano",
 title:"Humano",
 tone:"Bm",
+category:"espiritual",
 audio:"/audios/humano.mp3",
 chords:`
 
@@ -509,6 +517,7 @@ Meu Senhor
 id:"cancao-de-siao",
 title:"Canção de Sião",
 tone:"G",
+category:"agitada",
 audio:"/audios/cancao-de-siao.mp3",
 chords:`
 
@@ -543,6 +552,7 @@ Teu amor proclamar
 id:"ele-e-cristo",
 title:"Ele é Cristo",
 tone:"F",
+category:"agitada",
 audio:"/audios/ele-e-cristo.mp3",
 chords:`
 
