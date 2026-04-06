@@ -378,7 +378,7 @@ id:"mal-posso-esperar",
 title:"Mal Posso Esperar",
 tone:"D",
 category:"agitada",
-audio:"/audios/malpossoesperar.mp3",
+audio:"/audios/Mal_Posso_Esperar.wav",
 chords:`
 
 (Intro)
@@ -416,29 +416,47 @@ category:"espiritual",
 audio:"/audios/permanecer.mp3",
 chords:`
 
-(Intro)
-[E] [B] [C#m] [A]
-
-(Verso)
-[E]                [B]
-Em Teus braços quero estar
-[C#m]             [A]
-E pra sempre descansar
-[E]                 [B]
-Tua graça me sustém
-[C#m]             [A]
-Teu amor me faz ir além
+D#-
+Enfrentando os leões
+D#-
+Cantando em meio a guerras
+D#-
+O fogo não consome na fornalha
+D#-
+Ando sem ver o chão, olhando para Ti
+D#-                              C# 
+Nada vai me parar
 
 
-(Refrão)
-[E]              [B]
-Quero permanecer
-[C#m]           [A]
-Firme em Teu querer
-[E]             [B]
-Nada vai separar
-[A]
-Teu amor me guiar
+D#-                                                 
+Não vou me assustar com as águas
+F#                                C#
+e o abismo enfrentarei
+D#-                                         F#
+Mesmo que não veja nada, em Ti 
+       C#
+confiarei
+D#-                                                F#
+Pois eu sei que estas comigo até o 
+C#
+fim
+G#-                   B             C#          D#-
+Esse é o privilégio de pertencer a Ti
+D#-          
+Agraciado fui com o sangue do Cordeiro
+D#-
+E agora sei quem sou e nada rouba esse selo
+D#-
+As portas se abriram já posso acessar
+D#-
+Já não sou mais escravo, Ele veio me salvar
+
+D#-
+Nada nos abala 
+D#-
+Nada pode nos parar
+D#-
+Nada nos abala e nada pode nos parar
 
 `
 },
@@ -581,6 +599,42 @@ Seu amor é real
 Maior que tudo
 
 `
+},
+{
+id:"levanta-e-vem",
+title:"Levanta e Vem",
+tone:"A",
+category:"agitada",
+audio:"/audios/levantaevem.mp3",
+chords:`
+
+(Intro)
+[F] [C] [Dm] [Bb]
+
+(Verso)
+[F]             [C]
+Ele é Cristo o Rei
+[Dm]            [Bb]
+O Salvador nasceu
+[F]              [C]
+Trouxe luz ao mundo
+[Dm]              [Bb]
+Vida Ele nos deu
+
+
+(Refrão)
+[F]              [C]
+Cristo vive em mim
+[Dm]            [Bb]
+Nunca estou só
+[F]               [C]
+Seu amor é real
+[Bb]
+Maior que tudo
+
+`
 }
+
+
 
 ]
