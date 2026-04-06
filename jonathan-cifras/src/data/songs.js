@@ -1,12 +1,11 @@
 export const songs = [
-
-{
-id:"ainda-ha-lugar",
-title:"Ainda Há Lugar",
-tone:"D",
-category:"agitada",
-audio:"/audios/ainda-ha-lugar.mp3",
-chords:`
+  {
+    id: "ainda-ha-lugar",
+    title: "Ainda Há Lugar",
+    tone: "D",
+    category: "agitada",
+    audio: "/audios/ainda-ha-lugar.mp3",
+    chords: `
 
 (INTRO) [D] - [G] - [Em] - [D]
 
@@ -209,16 +208,16 @@ Venham venham
 [Bm]
 Venham venham
 
-`
-},
+`,
+  },
 
-{
-id:"eu-te-louvarei",
-title:"Eu Te Louvarei",
-tone:"F",
-category:"agitada",
-audio:"/audios/eu-te-louvarei.mp3",
-chords:`
+  {
+    id: "eu-te-louvarei",
+    title: "Eu Te Louvarei",
+    tone: "F",
+    category: "agitada",
+    audio: "/audios/eu-te-louvarei.mp3",
+    chords: `
 
 (Intro)
 [F] [A] [Dm] [Bb]
@@ -300,16 +299,16 @@ Por isso eu
 (Final)
 [Dm] [C] [F] [Bb]
 
-`
-},
+`,
+  },
 
-{
-id:"ecoar",
-title:"Ecoar",
-tone:"G",
-category:"espiritual",
-audio:"/audios/ecoar.mp3",
-chords:`
+  {
+    id: "ecoar",
+    title: "Ecoar",
+    tone: "G",
+    category: "espiritual",
+    audio: "/audios/ecoar.mp3",
+    chords: `
 
 (Intro)
 [G] [Em] [C] [D]
@@ -335,16 +334,16 @@ Meu louvor se levantará
 [C]
 Pra sempre Te adorar
 
-`
-},
+`,
+  },
 
-{
-id:"um-amigo-encontrei",
-title:"Um Amigo Encontrei",
-tone:"C",
-category:"espiritual",
-audio:"/audios/um-amigo-encontrei.mp3",
-chords:`
+  {
+    id: "um-amigo-encontrei",
+    title: "Um Amigo Encontrei",
+    tone: "C",
+    category: "espiritual",
+    audio: "/audios/um-amigo-encontrei.mp3",
+    chords: `
 
 (Intro)
 [C] [G] [Am] [F]
@@ -370,16 +369,16 @@ Em Ti confiarei
 [F]
 Nunca me abalarei
 
-`
-},
+`,
+  },
 
-{
-id:"mal-posso-esperar",
-title:"Mal Posso Esperar",
-tone:"D",
-category:"agitada",
-audio:"/audios/Mal_Posso_Esperar.wav",
-chords:`
+  {
+    id: "mal-posso-esperar",
+    title: "Mal Posso Esperar",
+    tone: "D",
+    category: "agitada",
+    audio: "/audios/Mal_Posso_Esperar.mp3",
+    chords: `
 
 (Intro)
 [D] [A] [Bm] [G]
@@ -405,16 +404,16 @@ Tudo entregarei
 [G]
 Só pra Te adorar
 
-`
-},
+`,
+  },
 
-{
-id:"permanecer",
-title:"Permanecer",
-tone:"E",
-category:"espiritual",
-audio:"/audios/permanecer.mp3",
-chords:`
+  {
+    id: "permanecer",
+    title: "Permanecer",
+    tone: "E",
+    category: "espiritual",
+    audio: "/audios/permanecer.mp3",
+    chords: `
 
 D#-
 Enfrentando os leões
@@ -458,16 +457,16 @@ Nada pode nos parar
 D#-
 Nada nos abala e nada pode nos parar
 
-`
-},
+`,
+  },
 
-{
-id:"ninguem-e-santo",
-title:"Ninguém é Santo",
-tone:"Am",
-category:"espiritual",
-audio:"/audios/ninguem-e-santo.mp3",
-chords:`
+  {
+    id: "ninguem-e-santo",
+    title: "Ninguém é Santo",
+    tone: "Am",
+    category: "espiritual",
+    audio: "/audios/ninguem-e-santo.mp3",
+    chords: `
 
 (Intro)
 [Am] [F] [C] [G]
@@ -493,16 +492,16 @@ Meu coração Te dou
 [G]
 Pra sempre eu vou
 
-`
-},
+`,
+  },
 
-{
-id:"humano",
-title:"Humano",
-tone:"Bm",
-category:"espiritual",
-audio:"/audios/humano.mp3",
-chords:`
+  {
+    id: "humano",
+    title: "Humano",
+    tone: "Bm",
+    category: "espiritual",
+    audio: "/audios/humano.mp3",
+    chords: `
 
 (Intro)
 [Bm] [G] [D] [A]
@@ -528,16 +527,16 @@ Sem Ti nada sou
 [A]
 Meu Senhor
 
-`
-},
+`,
+  },
 
-{
-id:"cancao-de-siao",
-title:"Canção de Sião",
-tone:"G",
-category:"agitada",
-audio:"/audios/cancao-de-siao.mp3",
-chords:`
+  {
+    id: "cancao-de-siao",
+    title: "Canção de Sião",
+    tone: "G",
+    category: "agitada",
+    audio: "/audios/cancao-de-siao.mp3",
+    chords: `
 
 (Intro)
 [G] [D] [Em] [C]
@@ -563,50 +562,16 @@ Pra sempre cantar
 [C]
 Teu amor proclamar
 
-`
-},
+`,
+  },
 
-{
-id:"ele-e-cristo",
-title:"Ele é Cristo",
-tone:"F",
-category:"agitada",
-audio:"/audios/ele-e-cristo.mp3",
-chords:`
-
-(Intro)
-[F] [C] [Dm] [Bb]
-
-(Verso)
-[F]             [C]
-Ele é Cristo o Rei
-[Dm]            [Bb]
-O Salvador nasceu
-[F]              [C]
-Trouxe luz ao mundo
-[Dm]              [Bb]
-Vida Ele nos deu
-
-
-(Refrão)
-[F]              [C]
-Cristo vive em mim
-[Dm]            [Bb]
-Nunca estou só
-[F]               [C]
-Seu amor é real
-[Bb]
-Maior que tudo
-
-`
-},
-{
-id:"levanta-e-vem",
-title:"Levanta e Vem",
-tone:"A",
-category:"agitada",
-audio:"/audios/levantaevem.mp3",
-chords:`
+  {
+    id: "ele-e-cristo",
+    title: "Ele é Cristo",
+    tone: "F",
+    category: "agitada",
+    audio: "/audios/ele-e-cristo.mp3",
+    chords: `
 
 (Intro)
 [F] [C] [Dm] [Bb]
@@ -632,9 +597,40 @@ Seu amor é real
 [Bb]
 Maior que tudo
 
-`
-}
+`,
+  },
+  {
+    id: "levanta-e-vem",
+    title: "Levanta e Vem",
+    tone: "A",
+    category: "agitada",
+    audio: "/audios/levantaevem.mp3",
+    chords: `
+
+(Intro)
+[F] [C] [Dm] [Bb]
+
+(Verso)
+[F]             [C]
+Ele é Cristo o Rei
+[Dm]            [Bb]
+O Salvador nasceu
+[F]              [C]
+Trouxe luz ao mundo
+[Dm]              [Bb]
+Vida Ele nos deu
 
 
+(Refrão)
+[F]              [C]
+Cristo vive em mim
+[Dm]            [Bb]
+Nunca estou só
+[F]               [C]
+Seu amor é real
+[Bb]
+Maior que tudo
 
-]
+`,
+  },
+];
