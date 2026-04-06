@@ -220,6 +220,8 @@ export default function Home(){
 
               <div className="filter-section">
 
+                <h2>Filtros</h2>
+
                 <div className="filter-title">
 
                   Categoria
@@ -333,7 +335,7 @@ export default function Home(){
               <button
 
                 className="btn-clear"
-                  
+
                 onClick={()=>{
 
                   setCategory("all")

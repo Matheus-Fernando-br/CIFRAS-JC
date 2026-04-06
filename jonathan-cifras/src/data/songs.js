@@ -378,7 +378,7 @@ id:"mal-posso-esperar",
 title:"Mal Posso Esperar",
 tone:"D",
 category:"agitada",
-audio:"/audios/mal-posso-esperar.mp3",
+audio:"/audios/malpossoesperar.mp3",
 chords:`
 
 (Intro)
