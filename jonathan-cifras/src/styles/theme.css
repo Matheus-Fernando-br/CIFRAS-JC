@@ -71,7 +71,7 @@ body{
 
   transition:
 
-  background .25s ease,
+  background .45s ease,
   color .25s ease,
   border .25s ease,
   box-shadow .25s ease,
@@ -367,6 +367,76 @@ pre{
 
 
 /* =========================
+   Scroll
+========================= */
+.scroll-box{
+
+  position:fixed;
+
+  right:20px;
+
+  bottom:20px;
+
+  z-index:9999;
+
+  display:flex;
+
+  flex-direction:column;
+
+  align-items:flex-end;
+
+  gap:.4rem;
+
+}
+
+.scroll-btn{
+
+  border:none;
+
+  padding:1rem;
+  font-size: 1rem;
+  border-radius:.6rem;
+
+  background:var(--bg);
+
+  color:white;
+
+  cursor:pointer;
+
+  box-shadow:0 6px 18px rgba(0,0,0,.2);
+
+}
+
+.scroll-panel{
+
+  background:var(--card);
+
+  border:.06rem solid var(--border);
+
+  padding:.6rem;
+
+  border-radius:.6rem;
+
+  box-shadow:0 8px 22px rgba(0,0,0,.18);
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:.3rem;
+
+  font-size:.8rem;
+
+  width:140px;
+
+}
+
+.scroll-panel input{
+
+  width:100%;
+
+}
+/* =========================
    FONT DROPDOWN
 ========================= */
 
@@ -469,6 +539,8 @@ pre{
 
   animation:fadeIn .18s ease;
 
+  z-index: 9999;
+
 }
 
 
@@ -553,14 +625,10 @@ pre{
 
 .btn-clear{
 
-  background:transparent;
-
   font-size:.75rem;
-
   opacity:.7;
 
 }
-
 
 /* =========================
    ANIMATIONS

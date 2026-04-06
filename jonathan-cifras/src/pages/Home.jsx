@@ -308,13 +308,13 @@ export default function Home(){
                 <select
 
                   value={tone}
-
+                  style={{padding:10}}
                   onChange={e=>setTone(e.target.value)}
 
                 >
 
                   <option value="all">
-                    todos
+                    Todos
                   </option>
 
                   {tones.map(t=>(
@@ -333,7 +333,7 @@ export default function Home(){
               <button
 
                 className="btn-clear"
-
+                  
                 onClick={()=>{
 
                   setCategory("all")
