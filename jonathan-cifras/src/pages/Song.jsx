@@ -54,7 +54,6 @@ export default function Song(){
     setStep(step + value)
 
   }
-
   const newLyrics = transposeLyrics(song.chords,step)
 
   return(

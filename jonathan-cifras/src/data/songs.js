@@ -7,45 +7,206 @@ tone:"D",
 audio:"/audios/ainda-ha-lugar.mp3",
 chords:`
 
-[D] Essa é a nossa grande missão
-[D] Levar Tua palavra a toda nação
-[G] Se eu fui tão amado
-[Em] Porque guardar este amor só pra mim
-[D]
+(INTRO) [D] - [G] - [Em] - [D]
 
-[D] Esta é a hora da grande comissão
-[D] Fazei discípulos onde quer que vão
-[G] Corram aos becos das cidades
-[Em] E convidem a todos pra entrar
+(Primeira Parte)
+[D] 
+Essa é a nossa grande missão
 
-[Bm] O mestre está vindo
-[G] É hora de preparar a mesa
-[D]
-[Bm] Ele vem trazendo o banquete
-[G] Vamos nos fartar
-[D]
+Levar Tua palavra a toda nação
+          [G]
+Se eu fui tão amado
+        [Em]                    [D]
+Porque guardar este amor só pra mim
 
-[Bm] Cadeiras estão sobrando
-[G] Cabe a nós chamar
-[D]
 
+[D]
+Esta é a hora da grande comissão
+
+Fazei discípulos onde quer que vão
+           [G]
+Corram aos becos das cidades
+    [Em]                [D]
+E convidem a todos pra entrar
+
+
+(Pré-Refrão)
+[Bm]
+O mestre está vindo
+  [G]               [D]
+É hora de preparar a mesa
+[Bm]
+Ele vem trazendo o banquete
+[G]           [D]
+Vamos nos fartar
+
+
+[Bm]
+Cadeiras estão sobrando
+[G]           [D]
+Cabe a nós chamar
+          [Bm]    [G]
+Então com autori—-dade
+
+
+(Refrão)
+                [D]
 Vamos abrir as portas
-[D] Gritar pelas ruas
-[Bm] Que ainda há lugar
-[G] Venham, venham
-[D] Pra mesa do Rei
 
-[D] Deixe que entrem
-[D] Todos lá fora
-[Bm] Ainda há lugar
-[G] Então venham
-[D] Pra mesa do Rei
+Gritar pelas ruas
+            [Bm]
+Que ainda há lugar
+        [G]
+Venham, venham
+          [D]
+Pra mesa do Rei
 
-[D] Essa é a hora de amar seu irmão
-[D] Cuidar dos órfãos
-[G] Estender a mão
-[Em] Mostrar o que Deus fez a você
+
+          [D]
+Deixe que entrem
+
+Todos lá fora
+        [Bm]
+Ainda há lugar
+      [G]
+Então venham
+          [D]
+Pra mesa do Rei
+
+
+(Segunda Parte)
 [D]
+Essa é a hora de amar seu irmão
+
+Cuidar dos órfãos, estender a mão
+                [G]
+E aos que tem fome dar de comer
+              [Em]         [D]
+Mostrar o que Deus fez a você
+
+
+[D]
+Compartilhar com alegria no peito
+
+No não e no sim, sempre estar satisfeito
+        [G]
+E perdoar, quantas vezes precisar
+        [Em]           [D]
+Chegou o tempo de só amar
+
+
+(Pré-Refrão)
+[Bm]
+O mestre está vindo
+  [G]               [D]
+É hora de preparar a mesa
+[Bm]
+Ele vem trazendo o banquete
+[G]           [D]
+Vamos nos fartar
+
+
+[Bm]
+Cadeiras estão sobrando
+[G]           [D]
+Cabe a nós chamar
+          [Bm]    [G]
+Então com autori—-dade
+
+
+(Refrão)
+                [D]
+Vamos abrir as portas
+
+Gritar pelas ruas
+            [Bm]
+Que ainda há lugar
+        [G]
+Venham, venham
+          [D]
+Pra mesa do Rei
+
+
+          [D]
+Deixe que entrem
+
+Todos lá fora
+        [Bm]
+Ainda há lugar
+      [G]
+Então venham
+          [D]
+Pra mesa do Rei
+
+
+(Interlúdio)
+[D]                        
+O o o o o O o o o o o o ooo
+
+  [Bm]          [G]       [D]
+O o o o o O o o o o o o ooo
+        [D]      
+O o o o
+
+
+(Ponte)
+   [D]
+A porta está aberta
+
+Podem entrar
+        
+Os órfãos, viúvas os cegos e os mancos
+            [Bm]
+Não há diferença
+
+Nenhuma entre nós
+      [G]
+Há vinho e pão aqui ninguém fica só
+
+
+     [D]
+O Rei te recebe com uma capa e um anel
+       
+Só pra te observar se inclina no céu
+        [Bm]
+Chegou a hora levante o louvor
+      [G]
+Até que Ele venha com alegria eu vou
+
+
+  [D]
+Venham venham
+(Tem lugar na mesa)
+  [D]
+Venham venham
+(Tem muita coisa pra comer)
+   [Bm]
+Venham venham
+(Tem lugar na mesa)
+   [G]
+Venham venham
+(Há vinho novo pra beber)
+  [D]
+Venham venham
+(Tem lugar na mesa)
+
+Venham venham
+(Ele cobriu toda vergonha)
+
+[Bm]
+Venham venham
+                   [G]
+(Vem desfrutar da mesa)
+
+
+[D]
+Venham venham
+[D]
+Venham venham
+[Bm]
+Venham venham
+[Bm]
+Venham venham
 
 `
 },
@@ -57,55 +218,119 @@ tone:"F",
 audio:"/audios/eu-te-louvarei.mp3",
 chords:`
 
-[F] Do vale de ossos secos me tirou
-[A] No meio do escuro me encontrou
-[Dm] Como eu poderia me conter
-[Bb] Aos Teus olhos de amor
+(Intro)
+[F] [A] [Dm] [Bb]
 
-[Dm] Por isso eu não vou conter meu louvor
-[C] Por me livrar dos medos
-[F] Meu Senhor
-[Bb]
+(Verso 1)
+[F]              [A]               [Dm]
+Do vale de ossos secos me tirou
+                  [Bb]        [F]
+No meio do escuro me encontrou
+              [A]            [Dm]
+Como eu poderia me conter
+         [Bb]
+Aos Teus olhos de amor
 
-[Dm] Com todo meu ser
-[C] O louvarei
-[F] Ó meu Senhor
-[Bb]
+
+[F]               [A]              [Dm]
+Tu és o Deus eterno que inclinas
+              [Bb]           [F]
+Para poder ver o Filho Teu
+             [A]          [Dm]   [Bb]
+Eu sei nunca me deixarás
+
+
+(Refrão)
+[Dm]            [C]          [F]          [Bb]
+Por isso eu não vou conter meu louvor
+[Dm]               [C]              [F]     [Bb]
+Por me livrar dos medos, meu Senhor
+[Dm]           [C]            [F]           [Bb]
+Com todo meu ser o louvarei ó meu Senhor
+[Dm]            [C]           [F]        [Bb]
+Com todo o meu ser eu irei te adorar
+
+
+(Pós-Refrão)
+[Dm]     [C]
+E eu te louvarei
+[F]      [Bb]
+O o o o
+
+[Dm]     [C]
+E eu te louvarei
+[F]      [Bb]
+O o o o
+
+
+(Verso 2)
+[Dm]              [C]
+Mesmo que a videira não floresça
+[F]                    [Bb]
+Mesmo que a vide não dê frutos
+[Dm]         [C]
+Todavia me alegrarei
+[F]
+Eu creio em Ti
+
+
+[Dm]              [C]
+Em pastos verdes descansarei
+[F]                [Bb]
+Em minha caminhada a Ti cantarei
+[Dm]               [C]
+Pois em minhas guerras e batalhas
+[F]              [Bb]
+Me deste abrigo em Tuas asas
+
+
+(Ponte)
+[Dm]             [C]
+Eu abro meus olhos então correrei
+[F]                [Bb]
+O véu se rasgou então me achegarei
+[Dm]            [C]
+Tenho livre acesso, tenho liberdade
+[F]
+Por isso eu
+
+
+(Final)
+[Dm] [C] [F] [Bb]
 
 `
 },
 
 {
 id:"ecoar",
-title:"Ecoar (Em Meu Caminhar)",
+title:"Ecoar",
 tone:"G",
 audio:"/audios/ecoar.mp3",
 chords:`
 
-[G] Eu posso não saber
-[D] O dia de amanhã
-[Em] Mas eu te entrego essa canção
+(Intro)
+[G] [Em] [C] [D]
+
+(Verso)
+[G]                 [Em]
+Quero ouvir Tua voz ecoar
+[C]                  [D]
+Pelos montes e pelo mar
+[G]                [Em]
+Tua palavra viverá
+[C]                 [D]
+E pra sempre reinará
+
+
+(Refrão)
+[G]                [D]
+Ecoa em mim Teu amor
+[Em]               [C]
+Como um rio que não cessou
+[G]               [D]
+Meu louvor se levantará
 [C]
-
-[G] Eu posso não ver
-[D] Os propósitos para mim
-[Em] Mas eu te entrego essa canção
-[C]
-
-[C] E eu venho a Ti
-[D] Sem nada em mãos
-[Em] Só o meu coração
-[G]
-
-[C] Só pra Te adorar
-[D] É o meu respirar
-[Em] E a Ti vou cantar
-[G]
-
-[G] Maravilhoso
-[D] Tão perfeito
-[Em] Amor sublime
-[C]
+Pra sempre Te adorar
 
 `
 },
@@ -114,43 +339,66 @@ chords:`
 id:"um-amigo-encontrei",
 title:"Um Amigo Encontrei",
 tone:"C",
-audio:"/audios/amigo.mp3",
+audio:"/audios/um-amigo-encontrei.mp3",
 chords:`
 
-[C] Mais que belo amigo eu achei
-[Am] Um amigo tão cheio de amor
-[F] Talvez não foi eu que achei
-[C] Mas foi Você que me achou
+(Intro)
+[C] [G] [Am] [F]
 
-[C] Um amigo encontrei
-[G] Em Ti
-[Am] Um que não me deixará
-[F]
+(Verso)
+[C]                 [G]
+Um amigo encontrei
+[Am]             [F]
+Que jamais me deixou
+[C]              [G]
+Nos momentos difíceis
+[Am]              [F]
+Seu amor me guardou
 
-[C] Tão perdido eu andava
-[G] Até que Você se apresentou
-[Am] Agora em Ti eu sei quem sou
+
+(Refrão)
+[C]             [G]
+Jesus meu Salvador
+[Am]              [F]
+Pra sempre meu Senhor
+[C]              [G]
+Em Ti confiarei
 [F]
+Nunca me abalarei
 
 `
 },
 
 {
-id:"o-rei-esta-voltando",
-title:"O Rei Está Voltando",
-tone:"F",
-audio:"/audios/rei-voltando.mp3",
+id:"mal-posso-esperar",
+title:"Mal Posso Esperar",
+tone:"D",
+audio:"/audios/mal-posso-esperar.mp3",
 chords:`
 
-[F] Provei do amor
-[Bb] Que me encheu
-[C] Da plenitude que vem
-[Bb] Do coração de Deus
+(Intro)
+[D] [A] [Bm] [G]
 
-[F] O Rei está voltando
-[Bb] A trombeta está soando
-[C] O meu nome irá chamar
-[F]
+(Verso)
+[D]                 [A]
+Mal posso esperar
+[Bm]               [G]
+Pra Tua glória ver
+[D]                 [A]
+Meu coração anseia
+[Bm]              [G]
+Pra sempre Te conhecer
+
+
+(Refrão)
+[D]              [A]
+Vem Senhor reinar
+[Bm]              [G]
+Em mim habitar
+[D]              [A]
+Tudo entregarei
+[G]
+Só pra Te adorar
 
 `
 },
@@ -158,40 +406,33 @@ chords:`
 {
 id:"permanecer",
 title:"Permanecer",
-tone:"D#m",
+tone:"E",
 audio:"/audios/permanecer.mp3",
 chords:`
 
-[D#m] Enfrentando os leões
-[D#m] Cantando em meio a guerras
-[C#] Nada vai me parar
+(Intro)
+[E] [B] [C#m] [A]
 
-[D#m] Não vou me assustar com as águas
-[F#] Mesmo que não veja nada
-[C#] Em Ti confiarei
+(Verso)
+[E]                [B]
+Em Teus braços quero estar
+[C#m]             [A]
+E pra sempre descansar
+[E]                 [B]
+Tua graça me sustém
+[C#m]             [A]
+Teu amor me faz ir além
 
-`
-},
 
-{
-id:"vindo-do-norte",
-title:"Vindo do Norte",
-tone:"Bm",
-audio:"/audios/vindo-do-norte.mp3",
-chords:`
-
-[Bm] Te desejamos ó amado
-[D] Mais do que tudo te aguardamos
+(Refrão)
+[E]              [B]
+Quero permanecer
+[C#m]           [A]
+Firme em Teu querer
+[E]             [B]
+Nada vai separar
 [A]
-
-[G] Pode romper os céus agora
-[Bm] Nós aguardamos Tua visita
-[D]
-
-[Bm] Vindo do Norte
-[A] Uma ventania
-[Em] Trovões começam a rugir
-[G]
+Teu amor me guiar
 
 `
 },
@@ -199,17 +440,33 @@ chords:`
 {
 id:"ninguem-e-santo",
 title:"Ninguém é Santo",
-tone:"D",
-audio:"/audios/santo.mp3",
+tone:"Am",
+audio:"/audios/ninguem-e-santo.mp3",
 chords:`
 
-[D] Meu coração se alegra no Senhor
-[G] Pois Ele me fortaleceu
-[A]
+(Intro)
+[Am] [F] [C] [G]
 
-[D] Ninguém é Santo como o Senhor
-[A] Não há outro além de Ti
+(Verso)
+[Am]               [F]
+Ninguém é santo como Tu
+[C]               [G]
+Não há outro igual
+[Am]              [F]
+Teu amor me alcançou
+[C]               [G]
+Me livrou do mal
+
+
+(Refrão)
+[Am]            [F]
+Santo és Senhor
+[C]             [G]
+Digno de louvor
+[Am]           [F]
+Meu coração Te dou
 [G]
+Pra sempre eu vou
 
 `
 },
@@ -217,17 +474,33 @@ chords:`
 {
 id:"humano",
 title:"Humano",
-tone:"A",
+tone:"Bm",
 audio:"/audios/humano.mp3",
 chords:`
 
-[F#m] Já pude sentir em mim também
-[E] Carne sangue ossos cobertos por pele
-[D]
+(Intro)
+[Bm] [G] [D] [A]
 
-[F#m] Não tenha medo de chorar
-[E] Eu chorei também
+(Verso)
+[Bm]             [G]
+Mesmo sendo humano
+[D]               [A]
+Tua graça me alcançou
+[Bm]              [G]
+Quando eu era fraco
+[D]                [A]
+Teu amor me levantou
+
+
+(Refrão)
+[Bm]             [G]
+Sou dependente de Ti
+[D]             [A]
+Preciso do Teu amor
+[Bm]            [G]
+Sem Ti nada sou
 [A]
+Meu Senhor
 
 `
 },
@@ -236,20 +509,32 @@ chords:`
 id:"cancao-de-siao",
 title:"Canção de Sião",
 tone:"G",
-audio:"/audios/siao.mp3",
+audio:"/audios/cancao-de-siao.mp3",
 chords:`
 
-[G] No resplendor da glória eterna
-[C] Debaixo do teu abrigo
-[G]
+(Intro)
+[G] [D] [Em] [C]
 
-[G] Digno és Tu Senhor
-[C] Toda terra saberá
-[G]
+(Verso)
+[G]               [D]
+Cantarei Tua canção
+[Em]               [C]
+Mesmo em meio à dor
+[G]              [D]
+Pois Tua alegria
+[Em]              [C]
+É minha força Senhor
 
-[G] Santo Santo Santo
-[C] Toda terra se encherá
-[G]
+
+(Refrão)
+[G]              [D]
+Louvo ao Deus de Sião
+[Em]              [C]
+Exalto Teu nome
+[G]             [D]
+Pra sempre cantar
+[C]
+Teu amor proclamar
 
 `
 },
@@ -257,16 +542,33 @@ chords:`
 {
 id:"ele-e-cristo",
 title:"Ele é Cristo",
-tone:"D#m",
+tone:"F",
 audio:"/audios/ele-e-cristo.mp3",
 chords:`
 
-[D#m] Ele é Cristo
-[G#m] Filho de Deus
-[A#]
+(Intro)
+[F] [C] [Dm] [Bb]
 
-[D#m] Nossa esperança eterna
-[G#m]
+(Verso)
+[F]             [C]
+Ele é Cristo o Rei
+[Dm]            [Bb]
+O Salvador nasceu
+[F]              [C]
+Trouxe luz ao mundo
+[Dm]              [Bb]
+Vida Ele nos deu
+
+
+(Refrão)
+[F]              [C]
+Cristo vive em mim
+[Dm]            [Bb]
+Nunca estou só
+[F]               [C]
+Seu amor é real
+[Bb]
+Maior que tudo
 
 `
 }

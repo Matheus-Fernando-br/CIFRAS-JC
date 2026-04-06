@@ -1,9 +1,9 @@
 :root{
 
-  --bg:#ffffff;
+  --bg: linear-gradient(290deg,#fff,#cccccc);
   --text:#111827;
-
-  --primary:#f97316;
+  --text-bg:#000000bd;
+  --primary:#f18232;
   --primary-soft:#fff7ed;
 
   --card:#ffffff;
@@ -16,17 +16,17 @@
 
 .dark{
 
-  --bg:#0b1220;
+  --bg: linear-gradient(290deg,#0b1220,#000000);
   --text:#e5e7eb;
-
-  --primary:#fb923c;
+  --text-bg:#dfdfdfa4;
+  --primary:#f97316;
   --primary-soft:#1a2236;
 
   --card:#111827;
 
   --border:#1f2937;
 
-  --second: linear-gradient(35deg,#1936bbc0, #5a0fbbc2);
+  --second: linear-gradient(35deg,#1936bbc0, #0b1220);
 
 }
 
@@ -54,21 +54,19 @@ body{
 }
 
 .logo{
-
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size:20px;
-
-  font-weight:700;
-
   letter-spacing:.3px;
-
   cursor:pointer;
-
+  transition: all .3s ease-in-out;
 }
 
 .logo:hover{
-
+  cursor: pointer;
   color:var(--primary);
-
+  transform: scale(0.99);
 }
 
 .container{
@@ -108,7 +106,7 @@ body{
 .song-title{
 
   font-size:18px;
-
+  color: var(--text);
   font-weight:600;
 
 }
@@ -116,7 +114,7 @@ body{
 .song-tone{
 
   font-size:14px;
-
+  color: var(--text-bg);
   opacity:.7;
 
 }
@@ -124,10 +122,11 @@ body{
 .chord{
 
   color:var(--primary);
-
+  font-size:16px;
   font-weight:600;
 
 }
+
 
 .search{
 
