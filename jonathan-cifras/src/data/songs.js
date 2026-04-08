@@ -314,25 +314,99 @@ Por isso eu
 [G] [Em] [C] [D]
 
 (Verso)
-[G]                 [Em]
-Quero ouvir Tua voz ecoar
-[C]                  [D]
-Pelos montes e pelo mar
-[G]                [Em]
-Tua palavra viverá
-[C]                 [D]
-E pra sempre reinará
+[G]
+Eu posso não saber
+[D]                [Em]
+O dia de amanhã, mas
+[Em]                    [C]
+Eu te entrego essa canção
 
+[G]
+Eu posso não ver
+[D]                  [Em]
+Os propósitos para mim
+[Em]                        [C]
+Mas eu te entrego essa canção
+
+(Pré-Refrão)
+[C]           [D]
+E eu venho a Ti
+[Em]
+Sem nada em mãos
+[G]
+Só o meu coração
+
+[C]              [D]
+Pois Só pra Te adorar
+[Em]
+É o meu respirar
+[G]
+E a Ti vou cantar
 
 (Refrão)
-[G]                [D]
-Ecoa em mim Teu amor
-[Em]               [C]
-Como um rio que não cessou
-[G]               [D]
-Meu louvor se levantará
+[G]
+Maravilhoso
+[D]
+Tão perfeito
+[Em]       [C]
+Amor sublime
+[G]
+És Deus presente
+[D]
+Cujo a voz
+[Em]
+Esta a ecoar
 [C]
-Pra sempre Te adorar
+Em meu caminhar
+
+(Repete Intro)
+[G]  [D]  [Em]  [C]
+
+(Verso)
+[G]
+Eu posso não saber
+[D]                [Em]
+O dia de amanhã, mas
+[Em]                    [C]
+Eu te entrego essa canção
+
+[G]
+Eu posso não ver
+[D]                  [Em]
+Os propósitos para mim
+[Em]                        [C]
+Mas eu te entrego essa canção
+
+(Pré-Refrão)
+[C]           [D]
+E eu venho a Ti
+[Em]
+Sem nada em mãos
+[G]
+Só o meu coração
+
+[C]              [D]
+Pois Só pra Te adorar
+[Em]
+É o meu respirar
+[G]
+E a Ti vou cantar
+
+(Refrão)
+[G]
+Maravilhoso
+[D]
+Tão perfeito
+[Em]       [C]
+Amor sublime
+[G]
+És Deus presente
+[D]
+Cujo a voz
+[Em]
+Esta a ecoar
+[C]
+Em meu caminhar
 
 `,
   },
@@ -349,25 +423,84 @@ Pra sempre Te adorar
 [C] [G] [Am] [F]
 
 (Verso)
-[C]                 [G]
-Um amigo encontrei
-[Am]             [F]
-Que jamais me deixou
-[C]              [G]
-Nos momentos difíceis
-[Am]              [F]
-Seu amor me guardou
-
-
-(Refrão)
-[C]             [G]
-Jesus meu Salvador
-[Am]              [F]
-Pra sempre meu Senhor
-[C]              [G]
-Em Ti confiarei
+[C9]
+Mais que belo amigo eu achei
+[Am]          [F]
+Um amigo tão cheio de amor
+[C9]                               [Am]
+Bom, talvez não foi eu que achei mas foi Você
 [F]
-Nunca me abalarei
+que me achou
+
+(Repete)
+
+[C9]
+Meu melhor amigo se tornou
+[Am]          [F]
+Tão paciente você me esperou
+
+[C9]
+E antes do meu nascimento já estava preparando pra me encontrar
+
+[C9]                 [G]
+Um amigo encontrei
+[Am]
+Em Ti
+[F]
+Um que não me deixar
+
+[C9]                 [G]
+Tão perdido eu andava
+[Am]                                    [F]
+Até que Você se apresentou
+[C9]
+Agora em Ti eu sei quem sou
+
+[C9]
+Pelas gerações comigo estás
+[Am]          [F]
+E dos meus filhos sei que cuidarás
+
+[C9]
+Em todo tempo tem mostrado a mim que ninguém me amou como Você Senhor
+
+[C9]
+Irresistível é o som da Tua voz
+[Am]          [F]
+Tua graça é favor a nós
+
+[Em]
+Por isso eu buscarei a Ti até nada mais me
+[F]
+importar
+
+**Solo e ponte:**
+[C] [Em] [Am] [F]
+
+[C]                                                          [Em]
+E eu sei que não, não me deixará
+[Am]
+Eu sei que não vai me abandonar
+[F]
+Mesmo quando me sinto só
+[C]
+Sei que aqui você vai estar (2x)
+
+[C]
+Consolador
+[Em]
+Conselheiro
+[Am]
+Recolhe as minhas lágrimas e leva ao Pai
+
+[F]
+Advogado
+[C]
+Encorajador
+[Em]
+Ó Espírito Santo
+[Am]
+Mais que um amigo encontrei em Ti
 
 `,
   },
@@ -375,34 +508,49 @@ Nunca me abalarei
   {
     id: "mal-posso-esperar",
     title: "Mal Posso Esperar",
-    tone: "D",
+    tone: "F",
     category: "agitada",
     audio: "/audios/Mal_Posso_Esperar.mp3",
     chords: `
 
 (Intro)
-[D] [A] [Bm] [G]
+[F] [Gm] [Bb] [F]
 
 (Verso)
-[D]                 [A]
-Mal posso esperar
-[Bm]               [G]
-Pra Tua glória ver
-[D]                 [A]
-Meu coração anseia
-[Bm]              [G]
-Pra sempre Te conhecer
+Provei do amor que me encheu
+Da plenitude que vem do coração de Deus
+E agora os meus olhos brilham
+Pela graça que a nós se estendeu
 
+Encontrou um lugar em nós
+Pra que o Espírito pudesse habitar
+Pelo seu sangue nos tornou os seus amigos
+Selados para sempre em Ti 
 
-(Refrão)
-[D]              [A]
-Vem Senhor reinar
-[Bm]              [G]
-Em mim habitar
-[D]              [A]
-Tudo entregarei
-[G]
-Só pra Te adorar
+E agora aguardo a promessa
+ser cumprida sobre todas as nações
+Pois essa é a esperança eterna
+Aqui está a noiva
+Aguardando o Rei
+
+Meu peito arde só de imaginar
+Eu mal posso esperar
+Pra te contemplar
+Sua face à nós há de se Revelar
+Eu mal posso esperar
+Para o dia da alegria eterna
+
+E não queremos parar
+Nós não podemos parar
+Já estamos comprometidos com o Dia do Senhor
+
+O Rei está voltando 
+O Rei está voltando
+A trombeta está soando
+O meu nome irá chamar
+
+Aleluia 
+Ele vem me buscar
 
 `,
   },
@@ -429,13 +577,13 @@ Nada vai me parar
 
 D#-                                                 
 Não vou me assustar com as águas
-F#                                C#
+F#                    C#
 e o abismo enfrentarei
-D#-                                         F#
+D#-                          F#
 Mesmo que não veja nada, em Ti 
        C#
 confiarei
-D#-                                                F#
+D#-                             F#
 Pois eu sei que estas comigo até o 
 C#
 fim
@@ -472,25 +620,85 @@ Nada nos abala e nada pode nos parar
 [Am] [F] [C] [G]
 
 (Verso)
-[Am]               [F]
-Ninguém é santo como Tu
-[C]               [G]
-Não há outro igual
-[Am]              [F]
-Teu amor me alcançou
-[C]               [G]
-Me livrou do mal
+[D]
+Meu coração se alegra no Senhor
+[G] [A]
+Pois Ele me fortaleceu
 
-
-(Refrão)
-[Am]            [F]
-Santo és Senhor
-[C]             [G]
-Digno de louvor
-[Am]           [F]
-Meu coração Te dou
+[D]
+Agora minha boca enche de riso
 [G]
-Pra sempre eu vou
+Eu me alegro em liberdade
+[A]
+Que Você me concedeu
+
+[D]
+Que eu deixe o orgulho e a soberba
+[G] [A]
+E que eu não fale com arrogância
+
+[D]
+Pois O Senhor é um Deus que Tudo Sabe
+[G] [A]
+E conhece as minhas ações
+
+(PRÉ-REFRÃO)
+[G] [A]
+Levantou o pobre do pó
+[Bm] [D]
+O necessitado tirou das cinzas
+[G] [A]
+E o colocou em um lugar de honra
+[Bm] [D]
+E esse é o Senhor, O firmamento do mundo
+
+
+(REFRÃO)
+[D]
+Ninguém é Santo como o Senhor
+[A]
+E não há outro além de Ti
+[G] [A]
+E não há Rocha como nosso Deus
+
+
+[D]
+Ninguém é Santo Como O Senhor
+[A]
+Deus que protege os seus fiéis
+[G] [A]
+Que sua voz troveja sobre os céus
+
+
+[D]
+Ele é quem faz descer a sepultura
+[G] [A]
+Mas de lá também faz subir
+
+
+[D]
+É Ele que dá poder aos Reis
+[G] [A]
+E concede força ao Seu ungido
+
+(PONTE)
+
+[G]
+Ele é Santo
+[A]
+O Deus presente de Israel
+[Bm]
+Que as minhas gerações
+[D]
+Pertençam ao Senhor
+
+
+[G]
+Sim eu me alegro
+[A]
+Pois sei que Ele me libertou
+[G] [A] [D]
+E não há outro como o Senhor
 
 `,
   },
@@ -507,25 +715,48 @@ Pra sempre eu vou
 [Bm] [G] [D] [A]
 
 (Verso)
-[Bm]             [G]
-Mesmo sendo humano
-[D]               [A]
-Tua graça me alcançou
-[Bm]              [G]
-Quando eu era fraco
-[D]                [A]
-Teu amor me levantou
+Já pude sentir em mim também
+Carne, sangue e ossos cobertos por pele
+De água ao vinho até o sacrifício
+Minha alma cansada
+Suava, sangrava demais
+
+Tanto eu sorri quanto chorei
+Sentia o seu sentir
+Pulsava em mim o coração
+Que te amou assim
+
+Com marcas nas mãos
+Feridas no peito que sangram até o coração Humano
+A carne expôs, presa em madeiro, a minha posição “Humano”
+Ali rompeu todo limite com a criação
+O que nos separava agora nos une
+Eu me fiz servo seu pra chama-lo de novo de filho meu
+
+Deixa o medo de chorar pra trás
+(eu chorei também)
+Se cair não se esconda mais
+Não tenha medo de levantar
+Só venha pra fora olhe em meu olhar
+Não se esconda agora sinta o meu coração
+Batendo como o seu
+Que se alegra mas que já sofreu
+
+Não tenha medo de mostrar as feridas
+Pra um Deus que escolheu o sofrimento
+A perder os seus
+
+Olha pra mim
+Estou aqui
+
+(São marcas do amor, suportei a dor)
+Também fui deixado e feito de nada
+(São marcas do amor, ao seu favor)
+Me fiz carne e osso pra provar o seu valor
 
 
-(Refrão)
-[Bm]             [G]
-Sou dependente de Ti
-[D]             [A]
-Preciso do Teu amor
-[Bm]            [G]
-Sem Ti nada sou
-[A]
-Meu Senhor
+(Foi por amor, foi por amor)
+(Foi por amor, que agora estou)
 
 `,
   },
@@ -542,25 +773,49 @@ Meu Senhor
 [G] [D] [Em] [C]
 
 (Verso)
-[G]               [D]
-Cantarei Tua canção
-[Em]               [C]
-Mesmo em meio à dor
-[G]              [D]
-Pois Tua alegria
-[Em]              [C]
-É minha força Senhor
+No resplendor da glória eterna 
+Debaixo do teu abrigo
+Com veste limpa lavada ao sangue
+Sangue precioso
+
+Onde os anjos escondem o rosto
+Declaram sua soberania
+Onde vemos sua face
+E Respondemos sua beleza
+
+Vejam o Cordeiro santo
+Que a morte ele venceu
+Que rompera os sete selos
+E reunirá seu povo
+
+Desça agora  em sua nuvem
+Governador de toda Terra
+Levantem as nações v seus louvores
+Ao Senhor pra Sempre 
 
 
-(Refrão)
-[G]              [D]
-Louvo ao Deus de Sião
-[Em]              [C]
-Exalto Teu nome
-[G]             [D]
-Pra sempre cantar
-[C]
-Teu amor proclamar
+Digno
+Digno
+Digno
+Digno
+Digno és Tu Senhor
+Toda terra saberá
+Quão  digno és tu Senhor
+
+Venham pra ver de toda nação
+Dancem ao som da canção de sião
+Louvem ao Nosso rei Salvador
+Digno é o Senhor
+
+
+
+Santo
+Santo
+Santo
+Santo
+Santo é o senhor
+Toda terra se encherá da Glória
+Do Senhor
 
 `,
   },
@@ -577,25 +832,31 @@ Teu amor proclamar
 [F] [C] [Dm] [Bb]
 
 (Verso)
-[F]             [C]
-Ele é Cristo o Rei
-[Dm]            [Bb]
-O Salvador nasceu
-[F]              [C]
-Trouxe luz ao mundo
-[Dm]              [Bb]
-Vida Ele nos deu
+Nada poderá roubar Tua glória (2x)
+Quem pode se comparar a Ti (2x)
+Nada poderá nos impedir (2x)
+De contemplar o Rei que está por vir
 
+Ele é Cristo
+O Filho de Deus
+E Nele está nossa esperança eterna
+Sobre nós tem o selo
+A garantia viva
+Que Ele em breve voltará
 
-(Refrão)
-[F]              [C]
-Cristo vive em mim
-[Dm]            [Bb]
-Nunca estou só
-[F]               [C]
-Seu amor é real
-[Bb]
-Maior que tudo
+O Teu Espírito
+Irá revelar os filhos de Deus
+Sim Ele irá revelar
+A toda criação
+Sim Ele é a garantia da salvação
+O penhor de Deus sobre nós 
+
+Vazios os sepulcros serão
+Pois ao abismo Ele desceu
+E quebrou toda prisão
+A morte Ele venceu
+E subiu todos os céus
+Afim de encher toda a Terra com Sua Glória  (3x)
 
 `,
   },
@@ -611,25 +872,7 @@ Maior que tudo
 [F] [C] [Dm] [Bb]
 
 (Verso)
-[F]             [C]
-Ele é Cristo o Rei
-[Dm]            [Bb]
-O Salvador nasceu
-[F]              [C]
-Trouxe luz ao mundo
-[Dm]              [Bb]
-Vida Ele nos deu
-
-
-(Refrão)
-[F]              [C]
-Cristo vive em mim
-[Dm]            [Bb]
-Nunca estou só
-[F]               [C]
-Seu amor é real
-[Bb]
-Maior que tudo
+Sem letra
 
 `,
   },
@@ -659,9 +902,9 @@ Que de amigo me chamou
             [G]  [F] [G] 
 Ele é meu amor
 
-                     [F]                      [E/C]                      
+           [F]            [E/C]                      
  Cantemos em uma só voz que
-  [F]                       [G] [Am]
+  [F]             [G] [Am]
 Digno é o Cordeiro
  
 Que se entregou
