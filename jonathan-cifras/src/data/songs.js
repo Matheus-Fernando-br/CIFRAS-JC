@@ -611,7 +611,7 @@ Nada nos abala e nada pode nos parar
   {
     id: "ninguem-e-santo",
     title: "Ninguém é Santo",
-    tone: "Am",
+    tone: "C",
     category: "espiritual",
     audio: "/audios/ninguem-e-santo.mp3",
     chords: `
@@ -706,7 +706,7 @@ E não há outro como o Senhor
   {
     id: "humano",
     title: "Humano",
-    tone: "Bm",
+    tone: "D",
     category: "espiritual",
     audio: "/audios/humano.mp3",
     chords: `
