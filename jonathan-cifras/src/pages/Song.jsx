@@ -23,7 +23,7 @@ function transposeChord(chord, step) {
 
 function transposeLyrics(text, step) {
   return text.replace(/\[([^\]]+)\]/g, (match, chord) => {
-    return `<span class="chord">[${transposeChord(chord, step)}]</span>`;
+    return `<span class="chord"><span class="br">[</span>${transposeChord(chord, step)}<span class="br">]</span></span>`;
   });
 }
 
@@ -45,43 +45,36 @@ export default function Song() {
 
   return (
     <div className="container fade">
-      <div style={{ textAlign: "center" }}>
-        <Link to="/" className="back">
-          ← Voltar
-        </Link>
-      </div>
-      <h2>{song.title}</h2>
+      <Link to="/" className="back">
+        <i className="bi bi-chevron-left"></i> Voltar
+      </Link>
 
-      <Player src={song.audio} />
-      <div
-        style={{
-          marginBottom: 10,
-          fontWeight: 600,
-        }}
-      >
-        Tom: {currentTone}
-      </div>
+      <div className="song-card">
+        <div className="song-header">
+          <h2>{song.title}</h2>
+          <span className="song-artist">Jonathan César</span>
+        </div>
 
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: 40,
-          marginBottom: 10,
-        }}
-      >
-        <button className="btn-tom" onClick={() => change(-1)}>
-          Diminuir Tom
-        </button>
+        <Player src={song.audio} />
 
-        <button className="btn-tom" onClick={() => change(1)}>
-          Aumentar Tom
-        </button>
+        <div className="song-toolbar">
+          <div className="tone-label">
+            Tom: <span key={currentTone}>{currentTone}</span>
+          </div>
+
+          <button className="btn-tom" onClick={() => change(-1)}>
+            <i className="bi bi-dash-lg"></i> Diminuir Tom
+          </button>
+
+          <button className="btn-tom" onClick={() => change(1)}>
+            <i className="bi bi-plus-lg"></i> Aumentar Tom
+          </button>
+        </div>
+
+        <pre dangerouslySetInnerHTML={{ __html: newLyrics }} />
       </div>
 
       <ScrollControl />
-
-      <pre dangerouslySetInnerHTML={{ __html: newLyrics }} />
     </div>
   );
 }

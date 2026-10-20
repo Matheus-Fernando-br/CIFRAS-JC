@@ -63,17 +63,21 @@ export default function Home() {
 
   const filterActive = category !== "all" || tone !== "all" || sort !== "az";
 
-  function Card(song) {
+  function Card(song, index) {
     return (
-      <Link
-        to={`/song/${song.id}`}
-        key={song.id}
-        style={{ textDecoration: "none" }}
-      >
-        <div className="card">
-          <div className="song-title">{song.title}</div>
+      <Link to={`/song/${song.id}`} key={song.id} className="song-link">
+        <div className="card" style={{ animationDelay: `${index * 0.04}s` }}>
+          <div className="song-rank">{index + 1}</div>
 
-          <div className="song-tone">Tom original: {song.tone}</div>
+          <div className="song-info">
+            <div className="song-title">{song.title}</div>
+
+            <div className="song-tone">
+              Tom original: <b>{song.tone}</b>
+            </div>
+          </div>
+
+          <i className="bi bi-chevron-right arrow"></i>
         </div>
       </Link>
     );
@@ -83,23 +87,28 @@ export default function Home() {
     <div className="container fade">
       {/* busca + filtro */}
 
+      <div className="hero">
+        <h1>Cifras Jonathan César</h1>
+        <p>Acordes, tons e áudios para tocar no louvor.</p>
+
       <div className="search-row">
-        <input
-          placeholder="🔎 Buscar música..."
-          className="search"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
+        <div className="search-wrap">
+          <i className="bi bi-search"></i>
+          <input
+            placeholder="Buscar música..."
+            className="search"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
+        </div>
 
         <div ref={ref} style={{ position: "relative" }}>
           <button
-            className="btn"
-            style={{
-              background: filterActive ? "var(--primary)" : "var(--second)",
-            }}
+            className={`filter-btn ${filterActive ? "active" : ""}`}
+            title="Filtros"
             onClick={() => setFilterOpen(!filterOpen)}
           >
-            <i class="bi bi-funnel-fill"></i>
+            <i className="bi bi-funnel-fill"></i>
           </button>
 
           {filterOpen && (
@@ -107,7 +116,7 @@ export default function Home() {
               <div className="filter-section">
                 <h2>Filtros</h2>
 
-                <div className="filter-title"><i class="bi bi-file-earmark"></i> Categoria</div>
+                <div className="filter-title"><i className="bi bi-file-earmark"></i> Categoria</div>
                 <hr />
                 <button
                   className={category === "all" ? "active" : ""}
@@ -132,7 +141,7 @@ export default function Home() {
               </div>
 
               <div className="filter-section">
-                <div className="filter-title"><i class="bi bi-list-ul"></i> Ordem</div>
+                <div className="filter-title"><i className="bi bi-list-ul"></i> Ordem</div>
                 <hr />
                 <button
                   className={sort === "az" ? "active" : ""}
@@ -150,11 +159,10 @@ export default function Home() {
               </div>
 
               <div className="filter-section">
-                <div className="filter-title"><i class="bi bi-megaphone"></i> Tom</div>
+                <div className="filter-title"><i className="bi bi-megaphone"></i> Tom</div>
                 <hr />
                 <select
                   value={tone}
-                  style={{ padding: 10 }}
                   onChange={(e) => setTone(e.target.value)}
                 >
                   <option value="all">Todos</option>
@@ -179,31 +187,38 @@ export default function Home() {
           )}
         </div>
       </div>
+      </div>
 
       {/* AGITADAS */}
 
       {agitadas.length > 0 && (
-        <>
+        <section className="section">
           <h2 className="section-title">
-            <i class="bi bi-fire"></i> Agitadas
+            <i className="bi bi-fire"></i> Agitadas
+            <span className="count">{agitadas.length}</span>
           </h2>
           <hr />
 
           {agitadas.map(Card)}
-        </>
+        </section>
       )}
 
       {/* ESPIRITUAIS */}
 
       {espirituais.length > 0 && (
-        <>
+        <section className="section">
           <h2 className="section-title">
-            <i class="bi bi-arrow-through-heart"></i> Espirituais
+            <i className="bi bi-arrow-through-heart"></i> Espirituais
+            <span className="count">{espirituais.length}</span>
           </h2>
           <hr />
 
           {espirituais.map(Card)}
-        </>
+        </section>
+      )}
+
+      {agitadas.length === 0 && espirituais.length === 0 && (
+        <div className="section empty">Nenhuma música encontrada.</div>
       )}
     </div>
   );

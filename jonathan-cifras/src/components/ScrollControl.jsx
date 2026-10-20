@@ -48,14 +48,18 @@ export default function ScrollControl() {
 
   return (
     <div ref={boxRef} className={`scroll-box ${open ? "open" : ""}`}>
-      <button className="scroll-btn" onClick={() => setOpen(!open)}>
-        <i className="bi bi-caret-down-square-fill"></i>
+      <button
+        className={`scroll-btn ${playing ? "playing" : ""}`}
+        onClick={() => setOpen(!open)}
+        title="Rolagem automática"
+      >
+        <i className="bi bi-chevron-double-down"></i>
       </button>
 
       {open && (
         <div className="scroll-panel">
-          <label htmlFor="speed-slider">Velocidade</label>
-          <div style={{ display: "flex", gap: 20 }}>
+          <label htmlFor="speed-slider">Rolagem automática</label>
+          <div className="scroll-row">
             <button onClick={handlePlayPause}>
               {playing ? (
                 <i className="bi bi-pause-fill"></i>
@@ -65,6 +69,7 @@ export default function ScrollControl() {
             </button>
 
             <input
+              id="speed-slider"
               type="range"
               min="0"
               max="40"

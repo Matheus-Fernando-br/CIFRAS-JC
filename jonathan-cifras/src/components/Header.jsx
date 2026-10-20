@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [dark, setDark] = useState(localStorage.getItem("theme") === "dark");
@@ -50,39 +51,28 @@ export default function Header() {
   }
 
   return (
-    <header
-      style={{
-        borderBottom: "1px solid var(--border)",
-        padding: "14px 20px",
-        position: "sticky",
-        top: 0,
-        background: "var(--bg)",
-        zIndex: 10,
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-        }}
-      >
-        <div className="logo">Jonathan Cesar</div>
+    <header className="header">
+      <div className="header-inner">
+        <Link to="/" className="logo">
+          <img src="/LOGO.png" alt="" />
+          <div className="logo-text">
+            <span className="logo-name">Jonathan César</span>
+            <span className="logo-sub">Cifras</span>
+          </div>
+        </Link>
 
-        <div
-          style={{
-            display: "flex",
-            gap: 18,
-            position: "relative",
-          }}
-          ref={ref}
-        >
-          <button className="btn-font" onClick={() => setOpen(!open)}>
+        <div className="header-actions" ref={ref}>
+          <button
+            className={`icon-btn ${open ? "active" : ""}`}
+            onClick={() => setOpen(!open)}
+            title="Tamanho da fonte"
+          >
             Aa
           </button>
 
           {open && (
             <div className="font-menu">
+              <div className="font-menu-title">Tamanho da fonte</div>
               <div className="font-row">
                 <button className="font-btn" onClick={decrease}>
                   –
@@ -108,21 +98,14 @@ export default function Header() {
           )}
 
           <button
-            className="btn"
+            className="icon-btn"
             onClick={() => setDark(!dark)}
-            style={{
-              width: 42,
-              height: 42,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontSize: 18,
-            }}
+            title={dark ? "Modo claro" : "Modo escuro"}
           >
             {dark ? (
-              <i class="bi bi-brightness-high"></i>
+              <i className="bi bi-brightness-high"></i>
             ) : (
-              <i class="bi bi-moon-fill"></i>
+              <i className="bi bi-moon-fill"></i>
             )}
           </button>
         </div>
